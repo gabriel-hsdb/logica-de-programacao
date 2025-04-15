@@ -7,5 +7,5 @@ programa {
     kelvin = (celsius+273)
     escreva("Fahrenheit: "+fahrenheit)
 
-    escreva(" Escala Kelvin:"+kelvin)
+    escreva("\nEscala Kelvin:"+kelvin)
 }}
