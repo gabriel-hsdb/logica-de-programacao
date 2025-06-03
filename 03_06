@@ -7,13 +7,46 @@
 </head>
 <body>
     <script>
-        let soma = 0;
+        let numlido = 1
+        var soma = 0, contador = -1
+        while (numlido > 0) {
+            contador++
+            soma += numlido
+            numlido = Number(prompt("Digite um número: "))
+        }
+        alert(soma/contador)
 
-        for (let i = 1; i <= 100; i++) {
-        soma += i;
-    }
 
-        alert("A soma dos 100 primeiros números naturais é:" +soma);
+
+        //let num = Number(prompt("Digite um número: "))
+        //let fatorial = 1
+        //for(;num >= 1;num--){
+        //    fatorial *= num
+        //}
+        //alert("O fatorial desse número é " + fatorial)
+
+
+
+        //var num
+        //num = Number(prompt("Digite um número: "))
+        //for(;num > 0;num--){
+        //    console.log(num)
+        //}
+
+
+
+
+        //let soma = 0;
+
+        //for (let i = 1; i <= 100; i++) {
+        //soma += i;
+    //}
+
+        //alert("A soma dos 100 primeiros números naturais é:" +soma);
+
+
+
+
         //num,soma
         //for (num = 1; num <= 100; num++){
         //       num = soma % 2 == 0 
@@ -21,11 +54,16 @@
         //}
 
 
+
+
         //var num
         
         //for(num = 0;num <= 10; num++){
         //    alert(num)
         //}
+
+
+
 
 //let altura = Number(prompt("Digite sua altura: "))
         //let genero = confirm("Seu gênero é masculino?")
@@ -46,6 +84,11 @@
         //else{
         //    alert("Invalido")
         //}
+
+
+
+
+
     </script>
 </body>
 </html>
