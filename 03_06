@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let soma = 0;
+
+        for (let i = 1; i <= 100; i++) {
+        soma += i;
+    }
+
+        alert("A soma dos 100 primeiros números naturais é:" +soma);
+        //num,soma
+        //for (num = 1; num <= 100; num++){
+        //       num = soma % 2 == 0 
+        //        alert(num)
+        //}
+
+
+        //var num
+        
+        //for(num = 0;num <= 10; num++){
+        //    alert(num)
+        //}
+
+//let altura = Number(prompt("Digite sua altura: "))
+        //let genero = confirm("Seu gênero é masculino?")
+        //alert(("Peso ideal:"+genero?22:21)*altura**2/10000+"kg")
+
+        //var peso,altura,genero,pesoideal
+        //genero = prompt("Digite seu gênero: \n 1 para Masculino \n 2 para Feminino")
+        //altura = Number(prompt("Digite sua altura(em cm): "))
+
+        //if (genero == 1){
+        //    pesoideal = 22 * (altura ** 2)
+        //    alert ("Peso ideal: "+ pesoideal/10000 +"kg")
+        //}
+        //else if (genero == 2){
+        //    pesoideal = 21 * (altura ** 2)
+        //    alert("Peso ideal: "+ pesoideal/10000 +"kg")
+        //}
+        //else{
+        //    alert("Invalido")
+        //}
+    </script>
+</body>
+</html>
